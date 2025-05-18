@@ -28,4 +28,4 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@v4
             - name: deploy project
-              run: echo "Deploying the project...."
+              run: echo "Deploying the project...."a
