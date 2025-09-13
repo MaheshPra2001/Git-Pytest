@@ -3,8 +3,8 @@ from main import add
 
 class TestMain(unittest.TestCase):
     def test_add(self):
-        assert add(2,3) == 5
-        assert add(-1,1) == 0
+        assert add(3,3) == 6
+        assert add(4,4) == 8
 
 
 # if expected Output and actual output is same then we will get the result as pass
