@@ -3,7 +3,7 @@ from main import add
 
 class TestMain(unittest.TestCase):
     def test_add(self):
-        assert add(4,3) == 9
+        assert add(4,3) == 7
         assert add(4,5) == 9
 
 
